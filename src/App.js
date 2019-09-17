@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar'
 import Section from './components/Section/section';
 import Main from './components/Main/main';
-import Article from './components/Article/Article';
+import Shop from './components/Article/Shop';
 import Footer from './components/Footer/Footer';
 
 
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Section />
       <Main />
-      <Article />
+      <Shop />
       <Footer />
     </div>
   );

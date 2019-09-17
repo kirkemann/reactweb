@@ -1,0 +1,16 @@
+// Eget style/theming som skal overrider BS
+
+$danger: yellow;
+$secondary: black;
+
+
+
+
+// import af BS - EFTER eget "override"
+// Hent ALT
+@import "/reactweb/node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+

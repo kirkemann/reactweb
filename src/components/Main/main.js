@@ -7,7 +7,7 @@ const Main = () => {
             <div className="row">
             <div className="col-9">
                 <img className="img-fluid" src={Events} alt=""/>
-                <h2 className="eventtext bg-dark text-right text-light pr-4 w-50 pt-2 position-absolute">NEXT EVENT</h2>
+                <h2 className="eventtext bg-secondary text-right text-light pr-4 w-50 pt-2 position-absolute">NEXT EVENT</h2>
             </div>
             <div className="col-3">
                 <h3>EVENTS</h3>
