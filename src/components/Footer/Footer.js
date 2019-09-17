@@ -9,6 +9,7 @@ const Footer = () => {
                 <img className="img-fluid" src={Maps} alt="Maps"/>
                 <h2 className="contacttext text-right text-dark pr-4 w-75 position-absolute">Contact</h2>
                 </div>
+
                 <div className="col-6 d-block text-center">
                     <h2>SEND EN BESKED</h2>
                     <label>Navn:</label>
