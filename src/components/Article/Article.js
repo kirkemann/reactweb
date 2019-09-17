@@ -15,7 +15,7 @@ const Article = () => {
                     <p>Hummel</p>                   
                 </div>
                 <div className="col-9">
-                <h2 className="shopsec bg-dark text-light pl-3 w-25 pt-1 position-absolute">SHOP</h2>
+                <h2 className="shopsec bg-dark text-light pl-3 w-25  position-absolute">SHOP</h2>
 
                 </div>
             </div>
