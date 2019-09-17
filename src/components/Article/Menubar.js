@@ -3,9 +3,9 @@ import React from 'react';
 const Menubar = () => {
     return ( 
 
-        <div className="container">
+        <div className="container col-3 menu">
             
-                <div className="col-3 shoplist ">
+                <div className="shoplist ">
                     <h3>SHOP</h3>
                     <h4>RUNINC SHOP</h4>
                     <p>Gratis fragt ved over kr. 500,-</p>

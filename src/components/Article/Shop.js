@@ -5,12 +5,12 @@ import Product from './Product'
 
 const Shop = () => {
     return ( 
-        <section className="shop position-relative row">
+        <section className="shop d-flex container">
             
-                <h2 className="shopsec bg-secondary text-light pl-3 w-25 position-absolute">SHOP</h2>
+            <Menubar className="position-relative" />
             
-            <Menubar className="col-lg-2" />
-            <Product className="col-lg-10" />
+            <Product />
+            
         </section>
      );
 }

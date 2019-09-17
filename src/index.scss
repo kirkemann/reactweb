@@ -2,6 +2,12 @@
 @import "./components/Scss/variables";
 @import "./components/Scss/bootstrap_custom";
 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: Raleway;
@@ -14,7 +20,7 @@ span
 {
   top: 400px;
   left: 932px;
-  height: 10%;
+  height: 15%;
 }
 .eventtext {
   top: 150px;
@@ -29,8 +35,8 @@ span
 .col-3
 {
   background-color: $yellow;
-  margin-left: -15px;
   padding-top: 5%;
+  margin-left: -15px;
 }
 .shoplist
 {
@@ -44,20 +50,41 @@ ul{
 }
 .shopsec
 {
-  bottom: 450px;
-  left: 940px;
+  bottom: 410px;
+  left: 391px;
 }
 .contacttext
 {
   background-color: $yellow;
   top: 175px;
 }
+.shoeinfo
+{
+  width: 350px;
+  height: 350px;
+}
+.products
+{
+  flex-wrap: wrap;
+  margin-left: 130px;
+  img{
+    width: 100%
+  }
+  .product
+  {
+    width: 33%;
+  }
+}
 .shoe-list
 {
-  width: 250px;
-  height: 250px;
-  bottom: 190px;
-  left: 500px;
+  margin-top: 15%;
 }
-
+.menu
+{
+  margin: 0;
+}
+.map-sec
+{
+  margin-left: -15px;
+}
 
