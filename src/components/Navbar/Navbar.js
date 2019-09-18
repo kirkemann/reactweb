@@ -1,5 +1,6 @@
 import React from 'react';
 import RunInc from '../img/runinc_logo.svg';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return ( 
@@ -12,16 +13,16 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                        <NavLink className="nav-link" to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="Main">Event</a>
+                        <NavLink className="nav-link" to="/Events">Event</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="Shop">Shop</a>
+                        <NavLink className="nav-link" to="/Shop">Shop</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="Footer">Contact Us</a>
+                        <NavLink className="nav-link" to="/Footer">Contact Us</NavLink>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
