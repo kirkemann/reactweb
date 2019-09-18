@@ -35,14 +35,14 @@ span
 .etext
 {
   background-color: $yellow;
-  padding-top: 5%;
+  text-align: center;
   margin-left: -15px;
+  
 }
 .shoplist
 {
   background-color: $yellow;
   margin-left: 0px;
-  padding-top: 5%;
   height: 600px;
   margin-left: -15px;
 }
@@ -85,15 +85,16 @@ ul{
 {
   margin: 0;
 }
-.map-sec
-{
-  margin-left: -15px;
-  
-}
 .imgevnets
 {
   margin-left: -15px;
 }
+
+.map-sec
+{
+  margin-left: -15px;
+}
+
 @media (max-width: 1198px){
   .texth2 {
     left: 200px;
@@ -129,6 +130,14 @@ ul{
   height: 13%;
   text-align: center;
 }
+.etext
+{
+  margin-left: 0px;
+}
+.map-sec
+{
+  margin-left: 0 !important;
+}
 
 }
 
@@ -162,6 +171,21 @@ ul{
   top: 60px;
   left: 15px;
   height: 19%;
+}
+.etext
+{
+  margin-left: 0px;
+}
+.texth2 {
+  left: 56px;
+  height: 20%;
+  text-align: center;
+  top: 140px;
+  width: 75% !important;
+}
+.map-sec
+{
+  margin-left: 0 !important;
 }
 
 }
@@ -199,6 +223,22 @@ ul{
   left: 15px;
   height: 19%;
 }
+.etext
+{
+  margin-left: 0px;
+}
+.texth2 {
+  left: 56px;
+  height: 20%;
+  text-align: center;
+  top: 140px;
+  width: 75% !important;
+}
+.map-sec
+{
+  margin-left: 0 !important;
+}
+
 }
 
 /*

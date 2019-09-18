@@ -2,7 +2,7 @@ import React from 'react';
 
 const Messenger = () => {
     return ( 
-        <div className="container">
+        <div className="container pt-3">
             <div className="row">
                 <div className="col-12 text-left">
                     <h2>SEND EN BESKED</h2>
