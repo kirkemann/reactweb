@@ -5,9 +5,9 @@ import Messenger from './Messenger';
 
 const Footer = () => {
     return ( 
-        <section className="d-flex container">
+        <section className=" container d-flex footer">
             <Map className="col-12" />
-            <Messenger className="col-12" />
+            <Messenger className="col-lg-12 col-md-9" />
 
         </section>
 

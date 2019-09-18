@@ -3,7 +3,7 @@ import React from 'react';
 const Menubar = () => {
     return ( 
 
-        <div className="container col-3 menu">
+        <div className="container col-12 col-lg-3 col-sm-9 menu">
             
                 <div className="shoplist ">
                     <h3>SHOP</h3>

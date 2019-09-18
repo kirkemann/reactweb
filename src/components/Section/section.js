@@ -7,7 +7,7 @@ const Section = () => {
             <div className="row">
                 <div className="col-12">
             <img class="img-fluid" src={Hero} alt="Løber-i-naturen"/>
-            <h2 className="texth2 bg-secondary text-light pl-3 w-50 pt-2 position-absolute">WE LOVE <span>RUNING</span></h2>
+            <h2 className="texth2 bg-secondary text-light pl-3 w-50 pt-2 position-absolute">WE LOVE <span>RUNNING</span></h2>
             </div>
             </div>
         </div>

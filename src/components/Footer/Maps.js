@@ -5,7 +5,7 @@ const Map = () => {
     return ( 
         <div className="container">
             <div className="row">
-                <div className="col-12 map-sec">
+                <div className="col-12  map-sec">
                     <img className="img-fluid" src={Maps} alt="Maps"/>
                     <h2 className="contacttext text-right text-dark pr-4 w-75 position-absolute">Contact</h2>
                     <div className="center text-center pt-3 pb-3 bg-secondary">
